@@ -25,7 +25,7 @@ public class MiniXbjMainActivity extends AppCompatActivity implements View.OnCli
 
 		PluginManager.getInstance(getApplicationContext()).loadPlugins(plugins);
 
-		initView();
+		initView(); 
 	}
 
 	private void initView() {
